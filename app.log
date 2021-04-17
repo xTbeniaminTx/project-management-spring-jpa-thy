@@ -1,0 +1,80 @@
+2021-04-17 09:14:41.965  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication using Java 1.8.0_282 on ThinkCenter-AV78 with PID 25364 (L:\Udemy\spring-project-management\target\classes started by ThinkCenter in L:\Udemy\spring-project-management)
+2021-04-17 09:14:41.965 DEBUG 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-17 09:14:41.966  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : No active profile set, falling back to default profiles: default
+2021-04-17 09:14:42.186  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 09:14:42.193  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2021-04-17 09:14:42.340  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-17 09:14:43.250  INFO 25364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1280 ms
+2021-04-17 09:14:43.273  INFO 25364 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 09:14:43.328  INFO 25364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:14:43.339  INFO 25364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 09:14:43.395  WARN 25364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 09:14:43.430  INFO 25364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:14:43.533  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-17 09:14:43.542  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 1.636 seconds (JVM running for 711.583)
+2021-04-17 09:14:43.544  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 09:14:43.546  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-17 09:14:43.547  INFO 25364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-17 09:26:05.376  INFO 25364 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:26:05.377  INFO 25364 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:26:05.581  WARN 25364 --- [Thread-23] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 09:26:05.788  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication using Java 1.8.0_282 on ThinkCenter-AV78 with PID 25364 (L:\Udemy\spring-project-management\target\classes started by ThinkCenter in L:\Udemy\spring-project-management)
+2021-04-17 09:26:05.788 DEBUG 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-17 09:26:05.788  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : No active profile set, falling back to default profiles: default
+2021-04-17 09:26:05.978  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 09:26:05.984  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2021-04-17 09:26:06.132  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-17 09:26:06.154  INFO 25364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 362 ms
+2021-04-17 09:26:06.174  INFO 25364 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 09:26:06.233  INFO 25364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:26:06.243  INFO 25364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 09:26:06.296  WARN 25364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 09:26:06.334  INFO 25364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:26:06.419  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-17 09:26:06.427  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 0.672 seconds (JVM running for 1394.468)
+2021-04-17 09:26:06.430  INFO 25364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-17 09:26:06.435  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 09:26:06.437  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-17 09:39:44.634  INFO 25364 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:39:44.635  INFO 25364 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:39:44.854  WARN 25364 --- [Thread-29] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 09:39:45.028  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication using Java 1.8.0_282 on ThinkCenter-AV78 with PID 25364 (L:\Udemy\spring-project-management\target\classes started by ThinkCenter in L:\Udemy\spring-project-management)
+2021-04-17 09:39:45.029 DEBUG 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-17 09:39:45.029  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : No active profile set, falling back to default profiles: default
+2021-04-17 09:39:45.194  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 09:39:45.201  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2021-04-17 09:39:45.325  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-17 09:39:45.344  INFO 25364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2021-04-17 09:39:45.364  INFO 25364 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 09:39:45.422  INFO 25364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:39:45.430  INFO 25364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 09:39:45.482  WARN 25364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 09:39:45.509  INFO 25364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:39:45.570  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-17 09:39:45.577  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 0.577 seconds (JVM running for 2213.618)
+2021-04-17 09:39:45.580  INFO 25364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-17 09:39:45.585  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 09:39:45.587  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-17 09:43:55.542  INFO 25364 --- [Thread-36] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:43:55.543  INFO 25364 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:43:55.758  WARN 25364 --- [Thread-36] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 09:43:55.931  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication using Java 1.8.0_282 on ThinkCenter-AV78 with PID 25364 (L:\Udemy\spring-project-management\target\classes started by ThinkCenter in L:\Udemy\spring-project-management)
+2021-04-17 09:43:55.931 DEBUG 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-17 09:43:55.932  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : No active profile set, falling back to default profiles: default
+2021-04-17 09:43:56.146  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 09:43:56.155  INFO 25364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2021-04-17 09:43:56.285  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-17 09:43:56.312  INFO 25364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 378 ms
+2021-04-17 09:43:56.331  INFO 25364 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 09:43:56.379  INFO 25364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 09:43:56.388  INFO 25364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 09:43:56.440  WARN 25364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 09:43:56.470  INFO 25364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 09:43:56.536  INFO 25364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-17 09:43:56.541  INFO 25364 --- [restartedMain] t.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 0.639 seconds (JVM running for 2464.583)
+2021-04-17 09:43:56.543  INFO 25364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-17 09:43:56.552  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 09:43:56.554  INFO 25364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
